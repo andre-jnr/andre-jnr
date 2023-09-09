@@ -22,5 +22,3 @@ Sou auxiliar fiscal, mas minha meta é atua com desenvolvimento de software. Min
 ## Onde me encontrar
 
 <a href="https://www.linkedin.com/in/andre-jnr/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-
-![Snake animation](https://github.com/andre-jnr/andre/blob/output/github-contribution-grid-snake.svg)
