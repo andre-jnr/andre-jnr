@@ -1,6 +1,6 @@
 # Olá, me chamo André Júnior👋
 
-Sou auxiliar fiscal, mas minha meta é atua com desenvolvimento de software. Minha paixão é o desenvolvimento beck-end e Data Science. Minha linguagem favorita é o Python, embora eu goste de como o C é programado.
+Minha meta é atuar significativamente com desenvolvimento de software. Minha paixão é o desenvolvimento beck-end e Data Science. Minha linguagem favorita é o Python, embora eu goste de como o C é programado.
 
 🤓 Estudante de Analise e Desenvolvimento de Sistemas.
 
