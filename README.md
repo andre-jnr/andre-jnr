@@ -2,7 +2,7 @@
 
 Minha meta é atuar significativamente com desenvolvimento de software. Minha paixão é o desenvolvimento back-end e Data Science. A linguagem que eu tenho mais afinidade é Python, embora eu goste de como o C é estruturado.
 
-🤓 Estudante de Analise e Desenvolvimento de Sistemas.
+🤓 Estudante de Analise e Desenvolvimento de Sistemas. <br/>
 🤖 Interessado em Machine Learning.
 
 <img src="https://giffiles.alphacoders.com/297/2970.gif"/>
