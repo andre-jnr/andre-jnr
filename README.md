@@ -46,3 +46,5 @@ My goal is to work significantly with software development. I'm studying back-en
 ## 📫 How to reach me?
 
 <a href="https://www.linkedin.com/in/andre-jnr/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+![snake gif](https://github.com/andre-jnr/andre-jnr/blob/output/github-contribution-grid-snake.svg)
