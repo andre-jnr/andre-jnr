@@ -13,7 +13,7 @@ My goal is to work significantly with software development. I'm studying back-en
 
 ## 🧮 Skills
 
-### Data Science
+### 📉 Data Science
 
 <div>
   <a href="https://github.com/andre-jnr/DataScience"><img height="30em" src="https://img.shields.io/badge/Jupiter-E8BC66?style=for-the-badge&logo=jupyter&logoColor=22272E"/></a>
@@ -24,7 +24,7 @@ My goal is to work significantly with software development. I'm studying back-en
   <a href="https://github.com/andre-jnr/portfolio-excel"><img height="30em" src="https://img.shields.io/badge/excel-E8BC66?style=for-the-badge&logo=microsoftexcel&logoColor=22272E" /></a>
 </div>
 
-### Back-end
+### 💻 Back-end
 
 <div>
   <a href="https://github.com/andre-jnr/estudos-python"><img height="30em" src="https://img.shields.io/badge/Python-92bcd1?style=for-the-badge&logo=python&logoColor=22272E"></a>
@@ -35,7 +35,7 @@ My goal is to work significantly with software development. I'm studying back-en
   <a href="https://github.com/andre-jnr/java-poo-ads"><img height="30em" src="https://img.shields.io/badge/java-92bcd1?style=for-the-badge&logo=Java&logoColor=22272E" /></a>
 </div>
 
-### Web development
+### 🌐 Web development
 
 <div>
   <a href="https://github.com/andre-jnr/estudos-js"><img height="30em" src="https://img.shields.io/badge/Javascript-e8dc66?style=for-the-badge&logo=javascript&logoColor=22272E"></a>
