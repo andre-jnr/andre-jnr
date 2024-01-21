@@ -1,25 +1,48 @@
-# Olá, me chamo André Júnior👋
+# Hi, there!👋
 
-Minha meta é atuar significativamente com desenvolvimento de software. Minha paixão é o desenvolvimento back-end e Data Science. A linguagem que eu tenho mais afinidade é Python, embora eu goste de como o C é estruturado.
+## 🧑‍💻 About me
 
-🤓 Estudante de Analise e Desenvolvimento de Sistemas. <br/>
-🤖 Interessado em Machine Learning.
+My goal is to work significantly with software development. I'm studying back-end development and Data Science. The language I have the most affinity with is Python, although I like how C is structured.
 
-<img src="https://giffiles.alphacoders.com/297/2970.gif"/>
+- 🤓 I'm studying back-end development
+- 📈 I'm studying data science
+- 🤖 interested in machine learning
 
-## Tecnologias
+## 📊 Stats
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andre-jnr&layout=compact&bg_color=00000000&title_color=86d9d1&text_color=bfbfbf&hide_border=true&card_width=500px&card_height=400px)
 
-<div style="display: inline_block"><br>
-  <a href="https://github.com/andre-jnr/estudos-python" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" height="60"/></a>
-  <a href="https://github.com/andre-jnr/exercicios-c" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="60" height="60"/></a>
-  <a href="https://github.com/andre-jnr/java-poo-ads" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="60" height="60"/></a>
-  <a href="https://github.com/andre-jnr/exercicios-js" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="60" height="60"/></a>
-  <a href="https://github.com/andre-jnr/DataScience" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" width="60" height="60"/></a>
-  <a href="https://github.com/andre-jnr/html-css-CursoEmVideo" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" width="60" height="60"/></a>
-  <a href="https://github.com/andre-jnr/html-css-CursoEmVideo" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" width="60" height="60"/></a>
-  <a href="https://github.com/andre-jnr" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" height="60"/></a>
+## 🧮 Skills
+
+### Data Science
+
+<div>
+  <a href="https://github.com/andre-jnr/DataScience"><img height="30em" src="https://img.shields.io/badge/Jupiter-E8BC66?style=for-the-badge&logo=jupyter&logoColor=22272E"/></a>
+  <a href="https://github.com/andre-jnr/DataScience"><img height="30em" src="https://img.shields.io/badge/Pandas-E8BC66?style=for-the-badge&logo=pandas&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr/DataScience"><img height="30em" src="https://img.shields.io/badge/Numpy-E8BC66?style=for-the-badge&logo=numpy&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr/streamlit"><img height="30em" src="https://img.shields.io/badge/Streamlit-E8BC66?style=for-the-badge&logo=streamlit&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr/DataScience"><img height="30em" src="https://img.shields.io/badge/Plotly-E8BC66?style=for-the-badge&logo=Plotly&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr/portfolio-excel"><img height="30em" src="https://img.shields.io/badge/excel-E8BC66?style=for-the-badge&logo=microsoftexcel&logoColor=22272E" /></a>
 </div>
 
-## Onde me encontrar
+### Back-end
+
+<div>
+  <a href="https://github.com/andre-jnr/estudos-python"><img height="30em" src="https://img.shields.io/badge/Python-92bcd1?style=for-the-badge&logo=python&logoColor=22272E"></a>
+  <a href="https://github.com/andre-jnr"><img height="30em" src="https://img.shields.io/badge/Django-92bcd1?style=for-the-badge&logo=django&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr"><img height="30em" src="https://img.shields.io/badge/MySQL-92bcd1?style=for-the-badge&logo=mysql&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr"><img height="30em" src="https://img.shields.io/badge/GIT-92bcd1?style=for-the-badge&logo=git&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr/exercicios-c"><img height="30em" src="https://img.shields.io/badge/C%20language-92bcd1?style=for-the-badge&logo=C&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr/java-poo-ads"><img height="30em" src="https://img.shields.io/badge/java-92bcd1?style=for-the-badge&logo=Java&logoColor=22272E" /></a>
+</div>
+
+### Web development
+
+<div>
+  <a href="https://github.com/andre-jnr/estudos-js"><img height="30em" src="https://img.shields.io/badge/Javascript-e8dc66?style=for-the-badge&logo=javascript&logoColor=22272E"></a>
+  <a href="https://github.com/andre-jnr/html-css-CursoEmVideo"><img height="30em" src="https://img.shields.io/badge/HTML-e8dc66?style=for-the-badge&logo=HTML5&logoColor=22272E"></a>
+  <a href="https://github.com/andre-jnr/html-css-CursoEmVideo"><img height="30em" src="https://img.shields.io/badge/HTML-e8dc66?style=for-the-badge&logo=CSS3&logoColor=22272E"></a>
+</div>
+
+## 📫 How to reach me?
 
 <a href="https://www.linkedin.com/in/andre-jnr/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
