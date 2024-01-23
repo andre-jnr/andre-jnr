@@ -40,7 +40,7 @@ My goal is to work significantly with software development. I'm studying back-en
 <div>
   <a href="https://github.com/andre-jnr/estudos-js"><img height="30em" src="https://img.shields.io/badge/Javascript-e8dc66?style=for-the-badge&logo=javascript&logoColor=22272E"></a>
   <a href="https://github.com/andre-jnr/html-css-CursoEmVideo"><img height="30em" src="https://img.shields.io/badge/HTML-e8dc66?style=for-the-badge&logo=HTML5&logoColor=22272E"></a>
-  <a href="https://github.com/andre-jnr/html-css-CursoEmVideo"><img height="30em" src="https://img.shields.io/badge/HTML-e8dc66?style=for-the-badge&logo=CSS3&logoColor=22272E"></a>
+  <a href="https://github.com/andre-jnr/html-css-CursoEmVideo"><img height="30em" src="https://img.shields.io/badge/CSS-e8dc66?style=for-the-badge&logo=CSS3&logoColor=22272E"></a>
 </div>
 
 ## 📫 How to reach me?
