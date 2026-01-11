@@ -8,9 +8,6 @@ My goal is to work significantly with software development. I'm studying back-en
 - 📈 I'm studying data science
 - 🤖 interested in machine learning
 
-## 📊 Stats
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=andre-jnr&layout=compact&bg_color=00000000&title_color=86d9d1&text_color=bfbfbf&hide_border=true&card_width=500px&card_height=400px)
-
 ## 🧮 Skills
 
 ### 📉 Data Science
