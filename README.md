@@ -19,6 +19,7 @@ My goal is to work significantly with software development. I'm studying back-en
   <a href="https://github.com/andre-jnr/streamlit"><img height="30em" src="https://img.shields.io/badge/Streamlit-E8BC66?style=for-the-badge&logo=streamlit&logoColor=22272E" /></a>
   <a href="https://github.com/andre-jnr/DataScience"><img height="30em" src="https://img.shields.io/badge/Plotly-E8BC66?style=for-the-badge&logo=Plotly&logoColor=22272E" /></a>
   <a href="https://github.com/andre-jnr/portfolio-excel"><img height="30em" src="https://img.shields.io/badge/excel-E8BC66?style=for-the-badge&logo=microsoftexcel&logoColor=22272E" /></a>
+  <a href="https://github.com/andre-jnr/portfolio-powerbi"><img height="30em" src="https://img.shields.io/badge/powerbi-E8BC66?style=for-the-badge&logo=microsoftpowerbi&logoColor=22272E" /></a>
 </div>
 
 ### 💻 Back-end
