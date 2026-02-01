@@ -1,0 +1,289 @@
+:root {
+      --primary: #1f2937;
+      --secondary: #0ea5e9; /* azul dados */
+      --background: #0b1220;
+      --card: #111827;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0b1220, #020617);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  margin-left: 0;
+  animation: blink 0.8s steps(2) infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+header p {
+  color: var(--muted);
+  margin-top: .5rem;
+  font-size: 1.4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+  font-size: 1.4rem;
+}
+
+nav a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 1.4rem;
+  color: white;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+.social-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #e5e7eb;
+  border: 1px solid #1f2937;
+  background: linear-gradient(145deg, #020617, #020617);
+  transition: all 0.25s ease;
+}
+
+/* Tamanho dos ícones */
+.social-btn i {
+  font-size: 1.1rem;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* LinkedIn */
+.social-btn.linkedin:hover {
+  color: #0a66c2;
+  border-color: #0a66c2;
+}
+
+/* GitHub */
+.social-btn.github:hover {
+  color: #c9d1d9;
+  border-color: #c9d1d9;
+}
+
+/* CV */
+.social-btn.cv:hover {
+  color: #22c55e;
+  border-color: #22c55e;
+}
+
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--secondary);
+  padding-left: 0.75rem;
+}
+
+.card {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* SOBRE */
+.about p {
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+/* CARREIRA */
+.timeline {
+  position: relative;
+  margin-left: 1rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: var(--secondary);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 0.4rem;
+  width: 14px;
+  height: 14px;
+  background: var(--secondary);
+  border-radius: 50%;
+}
+
+.timeline-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-item span {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.timeline-item p {
+  margin-top: 0.5rem;
+  color: var(--muted);
+}
+
+/* QUALIFICAÇÕES */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.skill {
+  background: #020617;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+}
+
+.skill h4 {
+  margin-bottom: 0.5rem;
+  color: var(--secondary);
+}
+
+.skill ul {
+  list-style: none;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+/* PROJETOS */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.project {
+  background: linear-gradient(145deg, #020617, #020617);
+  border: 1px solid #1f2937;
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.project-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  background: linear-gradient(145deg, #020617, #020617);
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.project-btn:hover {
+  background: linear-gradient(145deg, #020617, #020617);
+  border-color: #3b82f6;
+  color: #3b82f6;
+  transform: translateY(-2px);
+}
+
+.project-btn:active {
+  transform: translateY(0);
+}
+
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
