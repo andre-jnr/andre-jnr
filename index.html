@@ -1,185 +1,608 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfólio | André Júnior</title>
-  <link rel="stylesheet" href="style.css">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>André Júnior | Analista de Dados & BI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>
-      <span id="typing"></span><span class="cursor">|</span>
-    </h1>
-    <p>Analista de Faturamento • Análise de Dados • IA & Automação</p>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#carreira">Carreira</a>
-      <a href="#qualificacoes">Qualificações</a>
-      <a href="#projetos">Projetos</a>
-    </nav>
-    <div class="social-buttons">
-      <a href="https://www.linkedin.com/in/andre-jnr/" target="_blank" class="social-btn linkedin">
-        <i class="fa-brands fa-linkedin"></i>
-        LinkedIn
+
+<!-- NAVIGATION -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">
+    AJ <span>{ dev }</span>
+  </a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#jornada">Jornada</a></li>
+    <li><a href="#trajetoria">Carreira</a></li>
+    <li><a href="#formacao">Formação</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#contato" class="nav-cta">Contato</a></li>
+  </ul>
+  <button class="nav-menu-btn" onclick="toggleMenu()" aria-label="Menu">
+    <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Disponível para projetos
+      </div>
+      <h1 class="hero-title">
+        André<br><span class="name-highlight">Júnior</span>
+      </h1>
+      <p class="hero-role">Analista de Dados &nbsp;|&nbsp; Python &nbsp;|&nbsp; Excel &nbsp;|&nbsp; Power BI &nbsp;|&nbsp; SQL</p>
+      <p class="hero-desc">Transformando dados em decisões estratégicas através de automação, Business Intelligence e Inteligência Artificial.</p>
+      <div class="hero-buttons">
+        <a href="https://linkedin.com/in/andre-jnr" target="_blank" class="btn-primary">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/andre-jnr" target="_blank" class="btn-secondary">
+          <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          GitHub
+        </a>
+        <a href="assets/ANDRE JUNIOR - CURRICULO.pdf" class="btn-secondary" target="_blank">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Currículo
+        </a>
+        <a href="#contato" class="btn-secondary">Contato</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="dashboard-mockup">
+        <div class="dash-header">
+          <div class="dash-dots"><span></span><span></span><span></span></div>
+          <span class="dash-title">analytics_dashboard.py</span>
+        </div>
+        <div class="dash-kpis">
+          <div class="kpi-card">
+            <div class="kpi-label">Faturamento</div>
+            <div class="kpi-value blue" id="kpi1">R$0</div>
+            <div class="kpi-trend">▲ 12,4%</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">NFs Emitidas</div>
+            <div class="kpi-value cyan" id="kpi2">0</div>
+            <div class="kpi-trend">▲ 8,1%</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Precisão</div>
+            <div class="kpi-value green" id="kpi3">0%</div>
+            <div class="kpi-trend">▲ 2,3%</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-label">Automações</div>
+            <div class="kpi-value amber" id="kpi4">0</div>
+            <div class="kpi-trend">▲ novos</div>
+          </div>
+        </div>
+        <div class="dash-chart">
+          <div class="chart-label">// Faturamento Mensal 2025</div>
+          <div class="chart-bars">
+            <div class="bar" style="height:45%;animation-delay:0.0s"></div>
+            <div class="bar" style="height:58%;animation-delay:0.1s"></div>
+            <div class="bar" style="height:42%;animation-delay:0.2s"></div>
+            <div class="bar cyan" style="height:70%;animation-delay:0.3s"></div>
+            <div class="bar" style="height:55%;animation-delay:0.4s"></div>
+            <div class="bar cyan" style="height:82%;animation-delay:0.5s"></div>
+            <div class="bar" style="height:65%;animation-delay:0.6s"></div>
+            <div class="bar" style="height:90%;animation-delay:0.7s"></div>
+            <div class="bar cyan" style="height:100%;animation-delay:0.8s"></div>
+            <div class="bar" style="height:78%;animation-delay:0.9s"></div>
+            <div class="bar" style="height:85%;animation-delay:1.0s"></div>
+            <div class="bar cyan" style="height:95%;animation-delay:1.1s"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- SOBRE MIM -->
+<section id="sobre">
+  <div class="section-inner">
+    <div class="section-eyebrow">Sobre Mim</div>
+    <h2 class="section-title">Analítico por natureza,<br><span>inovador</span> por escolha</h2>
+    <div class="sobre-grid">
+      <div class="sobre-text reveal">
+        <p>Profissional versátil com trajetória de crescimento contínuo nas áreas administrativa, fiscal e de faturamento. Iniciei como aprendiz, evoluí para assistente fiscal, faturista, analista júnior e atualmente atuo como <strong style="color:var(--cyan)">Analista de Faturamento Pleno</strong>, conquistando promoções pela capacidade analítica, domínio de processos fiscais e habilidades em tecnologia.</p>
+        <p>Minha abordagem combina visão de negócio com execução técnica: transformo dados operacionais em inteligência estratégica, automatizo processos repetitivos com Python e construo dashboards que permitem decisões ágeis e embasadas.</p>
+        <div class="tags-list">
+          <span class="tag">Gestão de Equipes</span>
+          <span class="tag">Power BI</span>
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">IA Generativa</span>
+          <span class="tag">Automação</span>
+          <span class="tag">Excel Avançado</span>
+        </div>
+      </div>
+      <div class="stats-grid reveal">
+        <div class="stat-card">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Anos de experiência profissional</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="5">0</span>
+          <span class="stat-label">Promoções internas conquistadas</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="15">0</span>
+          <span class="stat-label">Dashboards desenvolvidos</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number" data-target="87">0</span>
+          <span class="stat-label">% redução tempo operacional</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- MINHA JORNADA -->
+<section id="jornada">
+  <div class="section-inner">
+    <div class="section-eyebrow">Evolução Profissional</div>
+    <h2 class="section-title">Minha <span>Jornada</span></h2>
+    <p class="section-desc">De aprendiz a analista pleno — uma trajetória de crescimento contínuo, determinação e aprendizado constante dentro da mesma empresa.</p>
+    <div class="journey-wrapper reveal">
+      <div class="journey-track" id="journey-track">
+        <div class="journey-line"></div>
+        <div class="journey-progress" id="journey-progress"></div>
+        <div class="journey-step" data-step="0" onclick="setJourneyStep(0)">
+          <div class="step-node">01</div>
+          <div class="step-label">Aprendiz Adm.</div>
+          <div class="step-year">2022</div>
+        </div>
+        <div class="journey-step" data-step="1" onclick="setJourneyStep(1)">
+          <div class="step-node">02</div>
+          <div class="step-label">Assistente Fiscal</div>
+          <div class="step-year">2023</div>
+        </div>
+        <div class="journey-step" data-step="2" onclick="setJourneyStep(2)">
+          <div class="step-node">03</div>
+          <div class="step-label">Faturista</div>
+          <div class="step-year">2024</div>
+        </div>
+        <div class="journey-step" data-step="3" onclick="setJourneyStep(3)">
+          <div class="step-node">04</div>
+          <div class="step-label">Analista Jr.</div>
+          <div class="step-year">2025</div>
+        </div>
+        <div class="journey-step" data-step="4" onclick="setJourneyStep(4)">
+          <div class="step-node">05</div>
+          <div class="step-label">Analista Pleno</div>
+          <div class="step-year">2026</div>
+        </div>
+      </div>
+
+      <div class="journey-detail" id="journey-detail">
+        <div class="detail-header">
+          <div>
+            <div class="detail-role" id="detail-role">Aprendiz Administrativo</div>
+            <div class="detail-company" id="detail-company">Stanley 1913</div>
+          </div>
+          <div class="detail-period" id="detail-period">Abr/2022 — Ago/2023</div>
+        </div>
+        <div class="detail-items" id="detail-items"></div>
+      </div>
+
+      <div class="journey-nav">
+        <button class="journey-nav-btn" onclick="prevStep()">← Anterior</button>
+        <button class="journey-nav-btn" onclick="nextStep()">Próximo →</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- TRAJETÓRIA PROFISSIONAL -->
+<section id="trajetoria">
+  <div class="section-inner">
+    <div class="section-eyebrow">Trajetória Profissional</div>
+    <h2 class="section-title">Histórico de <span>Carreira</span></h2>
+    <p class="section-desc">Crescimento consistente impulsionado por entrega de resultados, domínio técnico e desenvolvimento contínuo de liderança.</p>
+    <div class="timeline reveal">
+
+      <!-- Frigorífico Amazonas -->
+      <div class="company-block">
+        <div class="company-header">
+          <div class="company-icon frigo">FA</div>
+          <div>
+            <div class="company-name">Frigorífico Amazonas</div>
+            <div class="company-sub">Parque Dez, Manaus — AM &nbsp;|&nbsp; Abr/2023 – Atual</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot current"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <div class="tl-role">Analista de Faturamento Pleno</div>
+              <div class="tl-period current-badge">● Jun/2026 — Atual</div>
+            </div>
+            <div class="tl-tags">
+              <span class="tl-tag">Liderança de equipe</span>
+              <span class="tl-tag">DRE integrado</span>
+              <span class="tl-tag">SQL Server</span>
+              <span class="tl-tag">Dashboards real-time</span>
+              <span class="tl-tag">Relatórios gerenciais</span>
+              <span class="tl-tag">Contas a pagar</span>
+              <span class="tl-tag">Análise de vendas</span>
+              <span class="tl-tag">Análise de despesas</span>
+              <span class="tl-tag">Manual de Faturamento</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <div class="tl-role">Analista de Faturamento Júnior</div>
+              <div class="tl-period">Set/2025 — Jun/2026</div>
+            </div>
+            <div class="tl-tags">
+              <span class="tl-tag">Liderança operacional</span>
+              <span class="tl-tag">Relatórios gerenciais</span>
+              <span class="tl-tag">Treinamento</span>
+              <span class="tl-tag">Conciliações financeiras</span>
+              <span class="tl-tag">Controles fiscais</span>
+              <span class="tl-tag">Auditorias internas</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <div class="tl-role">Faturista</div>
+              <div class="tl-period">Dez/2024 — Set/2025</div>
+            </div>
+            <div class="tl-tags">
+              <span class="tl-tag">Emissão de NFs</span>
+              <span class="tl-tag">CT-e</span>
+              <span class="tl-tag">Contas a pagar</span>
+              <span class="tl-tag">Dashboards</span>
+              <span class="tl-tag">Análise de dados</span>
+              <span class="tl-tag">Controle de estoque</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <div class="tl-role">Assistente Fiscal</div>
+              <div class="tl-period">Ago/2023 — Dez/2024</div>
+            </div>
+            <div class="tl-tags">
+              <span class="tl-tag">DANFE</span>
+              <span class="tl-tag">SUFRAMA</span>
+              <span class="tl-tag">Desembaraço fiscal</span>
+              <span class="tl-tag">Dashboards</span>
+              <span class="tl-tag">XML</span>
+              <span class="tl-tag">Fechamento fiscal</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <div class="tl-role">Aprendiz Administrativo</div>
+              <div class="tl-period">Abr/2023 — Ago/2023</div>
+            </div>
+            <div class="tl-tags">
+              <span class="tl-tag">Processos fiscais</span>
+              <span class="tl-tag">Controle financeiro</span>
+              <span class="tl-tag">Emissão de NFs</span>
+              <span class="tl-tag">Centro de Distribuição</span>
+              <span class="tl-tag">Treinamento</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stanley 1913 -->
+      <div class="company-block">
+        <div class="company-header">
+          <div class="company-icon stanley">S1</div>
+          <div>
+            <div class="company-name">Stanley 1913</div>
+            <div class="company-sub">Manaus — AM &nbsp;|&nbsp; Jan/2021 – Jan/2022</div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <div class="tl-header">
+              <div class="tl-role">Aprendiz Administrativo</div>
+              <div class="tl-period">Jan/2021 — Jan/2022</div>
+            </div>
+            <div class="tl-tags">
+              <span class="tl-tag">Recrutamento e Seleção</span>
+              <span class="tl-tag">Onboarding</span>
+              <span class="tl-tag">Controle de ponto</span>
+              <span class="tl-tag">Folha de pagamento</span>
+              <span class="tl-tag">Benefícios</span>
+              <span class="tl-tag">Gestão de contratos</span>
+              <span class="tl-tag">Arquivo de documentos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FORMAÇÃO -->
+<section id="formacao">
+  <div class="section-inner">
+    <div class="section-eyebrow">Formação Acadêmica</div>
+    <h2 class="section-title">Educação &amp; <span>Especialização</span></h2>
+    <div class="edu-grid">
+      <div class="edu-card highlight reveal">
+        <span class="edu-badge">🎓 Pós-Graduação</span>
+        <div class="edu-institution">Centro Universitário Fametro</div>
+        <div class="edu-title">Especialização em Machine Learning</div>
+        <div class="edu-period">Abr/2025 — Abr/2026</div>
+        <div class="edu-highlight-tag">⭐ Bolsa por alto desempenho acadêmico</div>
+        <div class="tl-tags">
+          <span class="tl-tag">Redes Neurais</span>
+          <span class="tl-tag">Deep Learning</span>
+          <span class="tl-tag">CNN</span>
+          <span class="tl-tag">Machine Learning</span>
+          <span class="tl-tag">IA Generativa</span>
+        </div>
+      </div>
+      <div class="edu-card reveal">
+        <span class="edu-badge">🎓 Tecnólogo</span>
+        <div class="edu-institution">Centro Universitário Fametro</div>
+        <div class="edu-title">Análise e Desenvolvimento de Sistemas</div>
+        <div class="edu-period">Ago/2022 — Dez/2024</div>
+        <div class="tl-tags" style="margin-top:1.5rem">
+          <span class="tl-tag">Programação</span>
+          <span class="tl-tag">Banco de Dados</span>
+          <span class="tl-tag">Desenvolvimento Web</span>
+          <span class="tl-tag">Engenharia de Software</span>
+          <span class="tl-tag">Algoritmos</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- QUALIFICAÇÕES -->
+<section id="qualificacoes">
+  <div class="section-inner">
+    <div class="section-eyebrow">Habilidades Técnicas</div>
+    <h2 class="section-title">Qualificações &amp; <span>Competências</span></h2>
+    <div class="skills-grid">
+      <div class="skill-category reveal">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon blue">📊</div>
+          <div class="skill-cat-name">Análise de Dados</div>
+        </div>
+        <div class="skill-items">
+          <span class="skill-item">Power BI</span>
+          <span class="skill-item">SQL</span>
+          <span class="skill-item">Excel Avançado</span>
+          <span class="skill-item">Dashboards</span>
+          <span class="skill-item">KPIs</span>
+          <span class="skill-item">Indicadores</span>
+          <span class="skill-item">Análise de Lucratividade</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon cyan">💻</div>
+          <div class="skill-cat-name">Desenvolvimento</div>
+        </div>
+        <div class="skill-items">
+          <span class="skill-item">Python</span>
+          <span class="skill-item">Django</span>
+          <span class="skill-item">React</span>
+          <span class="skill-item">Angular</span>
+          <span class="skill-item">HTML/CSS</span>
+          <span class="skill-item">JavaScript</span>
+          <span class="skill-item">APIs REST</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon green">🗄️</div>
+          <div class="skill-cat-name">Banco de Dados</div>
+        </div>
+        <div class="skill-items">
+          <span class="skill-item">SQL Server</span>
+          <span class="skill-item">PostgreSQL</span>
+          <span class="skill-item">MySQL</span>
+          <span class="skill-item">ETL</span>
+          <span class="skill-item">Data Modeling</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon purple">🤖</div>
+          <div class="skill-cat-name">Inteligência Artificial</div>
+        </div>
+        <div class="skill-items">
+          <span class="skill-item">Machine Learning</span>
+          <span class="skill-item">IA Generativa</span>
+          <span class="skill-item">LangChain</span>
+          <span class="skill-item">Agentes de IA</span>
+          <span class="skill-item">LLMs</span>
+          <span class="skill-item">Deep Learning</span>
+        </div>
+      </div>
+      <div class="skill-category reveal">
+        <div class="skill-cat-header">
+          <div class="skill-cat-icon amber">📋</div>
+          <div class="skill-cat-name">Gestão &amp; Fiscal</div>
+        </div>
+        <div class="skill-items">
+          <span class="skill-item">Notas Fiscais</span>
+          <span class="skill-item">Treinamento de Equipes</span>
+          <span class="skill-item">Gestão de Processos</span>
+          <span class="skill-item">Controles Internos</span>
+          <span class="skill-item">Conciliação Fiscal</span>
+          <span class="skill-item">SUFRAMA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJETOS -->
+<section id="projetos">
+  <div class="section-inner">
+    <div class="section-eyebrow">Portfólio</div>
+    <h2 class="section-title">Projetos em <span>Destaque</span></h2>
+    <p class="section-desc">Soluções construídas para resolver problemas reais, automatizar processos e gerar inteligência de dados.</p>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-type">🐍 Python · XML · SUFRAMA</div>
+        <div class="project-title">Calculadora de Custos Adicionais</div>
+        <p class="project-desc">Sistema que importa XML de notas fiscais e calcula automaticamente descontos da SUFRAMA, ICMS e frete, retornando o custo final do produto com precisão e velocidade.</p>
+        <div class="project-result">
+          <div class="project-result-label">✓ Resultado comprovado</div>
+          <p>Redução do tempo de entrada de notas de aproximadamente 15 minutos para apenas 2 minutos por nota — economia de 87% no tempo operacional.</p>
+        </div>
+        <a href="https://calculo-custo-unitario.streamlit.app/" class="project-link" target="_blank">
+          Acessar Projeto
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-type">📊 Power BI · DAX · SQL</div>
+        <div class="project-title">Dashboards Gerenciais</div>
+        <p class="project-desc">Criação de dashboards em Power BI para acompanhamento de faturamento em tempo real, desempenho por loja, análise de resultados e KPIs estratégicos.</p>
+        <div class="project-result">
+          <div class="project-result-label">🔒 Confidencial</div>
+          <p>Por questões de confidencialidade, os dashboards reais não podem ser exibidos. Posso apresentar exemplos com estrutura e finalidade equivalentes mediante solicitação.</p>
+        </div>
+        <a href="https://github.com/andre-jnr/portfolio-powerbi" class="project-link" target="_blank">
+          Ver estudos
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-type">📋 Excel · VBA · Automação</div>
+        <div class="project-title">Planilha Inteligente de Conciliação Fiscal</div>
+        <p class="project-desc">Solução de consolidação automática de notas fiscais emitidas versus notas lançadas no sistema, eliminando a necessidade de conferência manual por PDFs da SEFAZ.</p>
+        <div class="project-result">
+          <div class="project-result-label">✓ Transformação de processo</div>
+          <p>Substituição do processo manual baseado em PDFs da SEFAZ por uma solução estruturada: basta colar os dados extraídos do sistema e da SEFAZ para obter a conciliação automaticamente.</p>
+        </div>
+        <a href="https://andre-jnr.github.io/fechamento-fiscal/" class="project-link" target="_blank">
+          Acessar projeto
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- DIFERENCIAIS -->
+<section id="diferenciais">
+  <div class="section-inner">
+    <div class="section-eyebrow">Por que André?</div>
+    <h2 class="section-title">Principais <span>Diferenciais</span></h2>
+    <div class="diff-grid">
+      <div class="diff-card reveal"><span class="diff-icon">👥</span><div class="diff-name">Liderança de Equipes</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">📊</span><div class="diff-name">Business Intelligence</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">⚙️</span><div class="diff-name">Automação de Processos</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">💻</span><div class="diff-name">Desenvolvimento Full Stack</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">🤖</span><div class="diff-name">Inteligência Artificial</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">🧠</span><div class="diff-name">Machine Learning</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">🗄️</span><div class="diff-name">SQL Server</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">📈</span><div class="diff-name">Power BI</div></div>
+      <div class="diff-card reveal"><span class="diff-icon">🐍</span><div class="diff-name">Python</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTATO -->
+<section id="contato">
+  <div class="section-inner" style="text-align:center">
+    <div class="section-eyebrow" style="justify-content:center">Vamos Conversar</div>
+    <h2 class="section-title">Entre em <span>Contato</span></h2>
+    <p class="section-desc" style="margin:0 auto 3rem;text-align:center">Aberto a novas oportunidades, projetos freelance e colaborações em dados, BI e inteligência artificial. Respondo em até 24 horas.</p>
+    <div class="contact-links" style="max-width:480px;margin:0 auto">
+      <a href="https://linkedin.com/in/andre-jnr" target="_blank" class="contact-link">
+        <div class="contact-icon linkedin">💼</div>
+        <div class="contact-link-text">
+          <strong>LinkedIn</strong>
+          <span>linkedin.com/in/andre-jnr</span>
+        </div>
       </a>
-
-      <a href="https://github.com/andre-jnr" target="_blank" class="social-btn github">
-        <i class="fa-brands fa-github"></i>
-        GitHub
+      <a href="https://github.com/andre-jnr" target="_blank" class="contact-link">
+        <div class="contact-icon github">⌨️</div>
+        <div class="contact-link-text">
+          <strong>GitHub</strong>
+          <span>github.com/andre-jnr</span>
+        </div>
       </a>
-
-      <a href="assets/Andre-Junior-CV.pdf" download class="social-btn cv">
-        <i class="fa-solid fa-file-pdf"></i>
-        Baixar CV
+      <a href="mailto:andrejr.comercial@gmail.com" class="contact-link">
+        <div class="contact-icon email">✉️</div>
+        <div class="contact-link-text">
+          <strong>E-mail</strong>
+          <span>andrejr.comercial@gmail.com</span>
+        </div>
       </a>
     </div>
-    <div class="scroll-down">
-      Role para baixo ↓
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-text">
+      Desenvolvido por <span>André Júnior</span> | Dados, Tecnologia e Inovação
     </div>
-  </header>
-  
-  <section id="sobre" class="about">
-    <h2>Sobre mim</h2>
-    <div class="card">
-      <p>
-        Sou profissional de tecnologia com formação em Análise e Desenvolvimento de Sistemas e pós-graduação em Machine Learning. Atuo com foco em análise de dados, automação de processos, faturamento e desenvolvimento de soluções tecnológicas que apoiam a tomada de decisão.
-        Tenho experiência prática com Excel avançado, dashboards, controle financeiro e desenvolvimento web, além de projetos acadêmicos e profissionais envolvendo Inteligência Artificial, acessibilidade digital e educação.
-      </p>
+    <div class="footer-text" style="font-size:0.72rem;opacity:0.6">
+      &copy; 2026 · Manaus, AM
     </div>
-  </section> <section id="carreira">
-    <h2>Minha carreira</h2>
-
-    <h3>Frigorifico Amazonas</h3>
-
-    <div class="card timeline"><div class="timeline-item">
-      <h3>Analista de Faturamento</h3>
-      <span>Promoção e liderança</span>
-      <p>
-        Responsável por análises estratégicas, criação de dashboards em Excel, automação de rotinas fiscais, treinamento de novos colaboradores e suporte à gestão na tomada de decisão. Líder da equipe de faturamento.
-      </p>
-    </div>
-
-    <div class="timeline-item">
-      <h3>Assistente de Faturamento</h3>
-      <span>Promoção interna</span>
-      <p>
-        Evolução natural do cargo anterior, com foco em emissão e conferência de notas fiscais, controle de entradas e saídas, apoio ao setor fiscal e análise de dados operacionais.
-      </p>
-    </div>
-
-    <div class="timeline-item">
-      <h3>Auxiliar Administrativo</h3>
-      <span>Promoção interna</span>
-      <p>
-        Atuação fiscal e administrativa, com controle e conferência de notas fiscais, fechamento de pagamentos, apoio ao CD, inauguração de unidades, treinamento de colaboradores e forte domínio de Excel avançado e relatórios gerenciais.
-      </p>
-    </div>
-
-    <div class="timeline-item">
-      <h3>Aprendiz Administrativo</h3>
-      <span>Início da carreira</span>
-      <p>
-        Atuação em rotinas administrativas, apoio à gestão, controle de documentos, frente de loja e suporte operacional.
-      </p>
-    </div>
-
-  </section> <section id="carreira">
-    <h3>Stanley 1913</h3>
-
-    <div class="card timeline"><div class="timeline-item">
-    <h3>Aprendiz Administrativo</h3>
-    <span>Início da carreira</span>
-    <p>
-      Apoio administrativo e de RH, com controle de planilhas e documentos, suporte a recrutamento, integração, controle de ponto, atendimento a funcionários, eventos e comunicação interna.
-    </p>
   </div>
+</footer>
 
-</div>
-
-  </section> <section id="qualificacoes">
-    <h2>Qualificações</h2>
-    <div class="skills"><div class="skill">
-    <h4>Análise de Dados</h4>
-    <ul>
-      <li>Excel avançado (PROCX, Tabelas Dinâmicas, Dashboards)</li>
-       <li>Power BI e Python (streamlit, pandas e etc...)</li>
-      <li>Análise de lucratividade</li>
-      <li>Indicadores de desempenho (KPIs)</li>
-    </ul>
-  </div>
-
-  <div class="skill">
-    <h4>Desenvolvimento</h4>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python, Django</li>
-      <li>React, Angular</li>
-      <li>Integração com API</li>
-      <li>Integração e consultas a banco de dados</li>
-    </ul>
-  </div>
-
-  <div class="skill">
-    <h4>Inteligência Artificial</h4>
-    <ul>
-      <li>Machine Learning</li>
-      <li>IA Generativa</li>
-      <li>Criação de agentes</li>
-      <li>LangChain e outras bibliotecas e LLM</li>
-    </ul>
-  </div>
-
-  <div class="skill">
-    <h4>Gestão & Fiscal</h4>
-    <ul>
-      <li>Notas fiscais (entrada e saída)</li>
-      <li>Treinamento de equipes</li>
-      <li>Organização de processos</li>
-      <li>Controles internos</li>
-    </ul>
-  </div>
-
-</div>
-
-  </section> <section id="projetos">
-    <h2>Projetos</h2>
-    <div class="projects"><div class="project">
-    <h3>Calculadora de custos adicionais</h3>
-    <p>
-      O usuário importando o XML, com o dado de frete e ICMS preenchido, o site calcula automáticamente o desconto suframa, e retorna o valor de custo final. Esse site cortou em média o tempo de entrada em notas de fora, de 15min para 2min.
-    </p>
-    <a href="https://calculo-custo-unitario.streamlit.app/" class="project-btn">Acessar projeto</a>
-  </div>
-
-  <div class="project">
-    <h3>Dashboards</h3>
-    <p>
-      Desenvolvimento de relatórios no Power BI para acompanhamento de faturamento, desempenho por loja e análise de resultados.
-    </p>
-    <p>
-      Por motivos de segurança de dados, não poderei compartilhar os projetos internos da empresa.
-    </p>
-    <a href="https://github.com/andre-jnr/portfolio-powerbi" class="project-btn">Acessar projeto</a>
-
-  </div>
-
-  <div class="project">
-    <h3>Planilha de conciliação de notas fiscais</h3>
-    <p>
-      Consolidação de notas lançadas no sistema e notas emitidas para o CNPJ, Conciliação automática a partir de dados copiados da SEFAZ e do sistema interno, Identificação de status da nota. O fechamento, antes feito manualmente com PDFs da SEFAZ, passou a ser automatizado.
-    </p>
-
-    <a href="https://andre-jnr.github.io/fechamento-fiscal/" class="project-btn">Acessar projeto</a>
-  </div>
-
-</div>
-
-  </section> <footer>
-    <p>© 2026 • André Júnior • Portfólio Profissional</p>
-  </footer></body>
-  <script src="script.js"></script>
+<script src="script.js"></script>
+</body>
 </html>
